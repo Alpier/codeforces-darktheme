@@ -535,9 +535,11 @@ div.diffHtmlTarget pre.prettyprint ins[style^="background:#80ff80"] .lit {
     /* tone down the red tokens in the green regions, to improve color contrast */
     background: #ff9d9d !important;
 }
-table {
-    color: #585858 !important;
-}
+
 .roundbox {
-    border-color: #585858 !important;
+    border: 1px solid #585858 !important;
+    outline: 1px solid #585858 !important;
+}
+#body div #sidebar .roundbox .rtable tbody .boxRow td div div form input {
+    color: #696969 !important;
 }
