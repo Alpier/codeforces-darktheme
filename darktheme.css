@@ -538,3 +538,6 @@ div.diffHtmlTarget pre.prettyprint ins[style^="background:#80ff80"] .lit {
 table {
     color: #585858 !important;
 }
+.roundbox {
+    border-color: #585858 !important;
+}
